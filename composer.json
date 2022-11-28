@@ -1,0 +1,30 @@
+{
+    "name": "ipdon/ipdon",
+    "description": "IPdon API integration - IP intelligence, served",
+    "keywords": [
+        "ip info", "geo ip", "ip data", "ipdon", "ip intelligence", "geoip"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/ipdon-api/php",
+    "authors": [{
+        "name": "IPdon",
+        "email": "hello@ipdon.com",
+        "homepage": "https://ipdon.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {        
+    },
+    "support": {
+        "issues": "https://github.com/ipdon-api/php/issues",
+        "source": "https://github.com/ipdon-api/php"
+    },
+    "autoload": {
+        "psr-0": {
+            "ipdon": "src/"
+        }
+    }
+}
